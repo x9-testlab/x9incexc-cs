@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<DebugType>portable</DebugType>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<!-- Leave this stuff out because it messes up debugging; use command-line build instead for single file etc.
+		<PublishSingleFile>true</PublishSingleFile>
+		<RunTimeIdentifier>linux-x64</RunTimeIdentifier>
+		<PublishTrimmed>true</PublishTrimmed>
+		-->
+		<Prefer32Bit>false</Prefer32Bit>
+	</PropertyGroup>
+	<!-- Leave this stuff out because it messes up debugging; use command-line build instead for single file etc.
+	<ItemGroup>
+		<Content Include="lib/linux-x64/libsqlite3_v3310100.so">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
+	-->
+</Project>
